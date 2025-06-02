@@ -4,4 +4,4 @@ content = file.ReadAll
 Execute content
 file.Close
 
-openBrowser()
+nonWork()
