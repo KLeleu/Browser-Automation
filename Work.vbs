@@ -4,6 +4,4 @@ content = file.ReadAll
 Execute content
 file.Close
 
-openEmails()
-
-
+work()
