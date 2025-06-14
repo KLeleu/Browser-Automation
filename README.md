@@ -15,7 +15,7 @@ Hi, I'm **Kevin Leleu**, a transitioning programmer with a background in aviatio
 
 1. Ensure you have Windows Script Host enabled.
 2. Run `Work.vbs` to open Gmail inboxes or `Non-Work.vbs` for personal sites.
-3. Requires Google Chrome pinned to the taskbar.
+3. Requires Google Chrome.
 
 ## 🛠️ My Skills 🛠️
 
