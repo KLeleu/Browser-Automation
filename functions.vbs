@@ -31,26 +31,40 @@ Sub openPandora()
   WShell.Run "https://pandora.com/station/play/97778471693990190"
 End Sub
 
-Sub work() 
+Sub openGrok()
+  sleep 200
+  WShell.Run "https://grok.com/"
+End Sub
+
+Sub openChatGPT()
+  sleep 200
+  WShell.Run "https://chatgpt.com/"
+End Sub
+
+ ' Sub emails() 
  ' For Each Item in Taskbar.Items
   ' If Item.Name = "Google Chrome" Then
-      openInbox 3
-      openInbox 2
-      openInbox 1
-      openInbox 0
+       openGrok
+       openChatGPT
+       openInbox 3
+       openInbox 2
+       openInbox 1
+       openInbox 0
    ' Exit For
  ' End If
  ' Next
-End Sub
+' End Sub
 
 Sub nonWork()  
  ' For Each Item in Taskbar.Items
    ' If Item.Name = "Google Chrome" Then
      ' Item.invokeVerb="open"
+      openChatGPT
+      openGrok
       openPandora
-      openX
       openTwitch
-      openYoutube
+	    openYoutube
+	    openX
    ' Exit For
  ' End If
  ' Next
