@@ -41,31 +41,31 @@ Sub openChatGPT()
   WShell.Run "https://chatgpt.com/"
 End Sub
 
- ' Sub emails() 
- ' For Each Item in Taskbar.Items
-  ' If Item.Name = "Google Chrome" Then
+  Sub emails() 
+   For Each Item in Taskbar.Items
+    If Item.Name = "Google Chrome" Then
        openGrok
        openChatGPT
        openInbox 3
        openInbox 2
        openInbox 1
        openInbox 0
-   ' Exit For
- ' End If
- ' Next
-' End Sub
+    Exit For
+   End If
+  Next
+End Sub
 
 Sub nonWork()  
- ' For Each Item in Taskbar.Items
-   ' If Item.Name = "Google Chrome" Then
-     ' Item.invokeVerb="open"
+  For Each Item in Taskbar.Items
+    If Item.Name = "Google Chrome" Then
+     Item.invokeVerb="open"
       openChatGPT
       openGrok
       openPandora
       openTwitch
       openYoutube
       openX
-   ' Exit For
- ' End If
- ' Next
+    Exit For
+  End If
+  Next
 End Sub
